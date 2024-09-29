@@ -17,6 +17,7 @@ Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu
 
 ## 👨🏼‍🏫 Resolução
 P => Português; M => Matemática
+
 O professor percebeu a troca de alunos por conta da sequência alternada que o mesmo criou, como mostra na Figura 1 e 2. Antes era PMMPMM na quinta coluna e passou a ficar PMMPPM, mudando a ordem. Ele soube pois observou isso.
 
 
