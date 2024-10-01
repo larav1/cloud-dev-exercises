@@ -48,3 +48,6 @@ Inicio
 
 Fimalgoritmo
 ```
+**Imagem do algoritmo funcionando**
+![Captura de tela 2024-10-01 182906](https://github.com/user-attachments/assets/4b270eda-6f7b-4de1-8ac7-aff288ec7d3d)
+
