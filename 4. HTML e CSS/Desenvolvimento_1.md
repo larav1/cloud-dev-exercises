@@ -26,9 +26,9 @@ Observe as três capturas de tela em anexo. Cada uma delas tem áreas sinalizada
 
 **Imagem 2:**
 
-8 - footer: foi o que sobrou, mas eu não consegui entender porque é footer;
+8 - a: link;
 
-9 - a: são os links de inscrição;
+9 - footer: rodapé;
 
 10 - ul: lista não ordenada;
 
