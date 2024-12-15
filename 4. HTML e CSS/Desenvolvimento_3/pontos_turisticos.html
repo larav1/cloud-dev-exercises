@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pontos Turísticos</title>
+    <style>
+        p {
+            font-size:larger;
+            text-align: justify;
+
+        }
+        section {
+            margin-bottom: 100px; 
+        }
+        .banner img {
+            width: 100%;
+            height: 250px; /* Altura fixa do banner */
+            object-fit: cover; 
+    
+        }
+        
+        .gradiente {
+            background: linear-gradient(95deg, #f4c536, #e5bee0);
+            display: inline;
+            font-size: 25px; 
+            font-weight: bold; 
+            text-align: center; 
+            margin: 50px 0; 
+            border-radius: 4px;
+        }
+        .marco-zero {
+            float: right;
+            margin-left: 20px;
+            max-width: 300px;
+            width: 100%;
+            padding-top: 45px;
+            
+        }
+        .rodape {
+            clear: both; 
+            display:flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            font-size: 15px; /* Tamanho da fonte */
+            padding: 0; /* Espaço interno */
+            margin: 0;
+            background-color: #f4c536; /* Cor de fundo */
+            color: aliceblue; /* Cor do texto */
+        }
+    </style>
 </head>
 <body>
-    
+    <header class="banner">
+        <img src="./img/Recife_ia.png" alt="Banner">
+    </header>
+    <section>
+        <h1 class="gradiente">Instituto Ricardo Brennand</h1>
+        <img src="./img/marco-zero.jpg" alt="Instituto ricardo benard" class="instituto">
+        <p>
+            O Instituto Ricardo Brennand é um complexo cultural e museológico localizado na Zona Norte de Recife, dentro de um castelo medieval recriado. O instituto abriga uma vasta coleção de arte, incluindo pinturas, esculturas e móveis, além de objetos históricos e uma impressionante coleção de armas antigas. Uma das grandes atrações do instituto é o seu acervo dedicado à arte barroca, com obras que remontam aos séculos XVII e XVIII, especialmente relacionadas à história de Pernambuco e do Brasil.
+        </p>
+    </section>
+
+
+    <footer class="rodape">
+        <p>2024 - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
