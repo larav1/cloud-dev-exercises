@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recife</title>
     <style>
+        p {
+            font-size:larger;
+            text-align: justify;
+
+        }
         .banner img {
             width: 100%;
-            height: 300px; /* Altura fixa do banner */
-            object-fit: cover; /* Garante um ajuste elegante */
+            height: 250px; /* Altura fixa do banner */
+            object-fit: cover; 
+        }
+        .gradiente {
+            background: linear-gradient(95deg, #f4c536, #e5bee0);
+            display: inline;
+            font-size: 25px; 
+            font-weight: bold; 
+            text-align: center; 
+            margin: 50px 0; 
+            border-radius: 5px;
+
         }
 
         /* Imagens alinhadas à direita */
@@ -16,6 +31,7 @@
             float: right;
             margin-left: 20px;
             max-width: 250px;
+            border-radius: 7px;
             
         }
         .paisagem {
@@ -23,8 +39,9 @@
             margin-left: 20px;
             max-width: 250px;
             margin-bottom: 20px;
+            border-radius: 7px;
         }
-
+        /* Estilização do rodapé */
         .rodape {
             clear: both; 
             display:flex;
@@ -35,6 +52,7 @@
             background-color: #f4c536; /* Cor de fundo */
             color: aliceblue; /* Cor do texto */
         }
+        
 
     </style>
 </head>
@@ -43,17 +61,17 @@
         <img src="./img/Recife_ia.png" alt="Banner">
     </header>
     <section>
-        <h1>Recife</h1>
+        <h1 class="gradiente">Recife</h1>
         <p>Com uma rica história, cultura vibrante e belezas naturais impressionantes, <strong>Recife</strong> é um destino imperdível para quem deseja explorar o Nordeste brasileiro.</p>
     </section>
     <section>
-        <h2>História e Cultura</h2>
+        <h1 class="gradiente">História e Cultura</h1>
         <img src="./img/galo_madrugada.jpg" alt="Galo da madrugada" class="galo">
         <p>Fundada em 1537, Recife é uma das cidades mais antigas do Brasil. Seu bairro histórico, o Recife Antigo, guarda ruas de paralelepípedo, igrejas barrocas e edificações coloniais, como a <strong>Sinagoga Kahal Zur Israel</strong>, considerada a primeira sinagoga das Américas. Além disso, o local é palco de eventos culturais, como a famosa <em>Feira do Recife Antigo</em>.</p>
         <p>A cultura pernambucana está viva em cada canto da cidade. Recife é a terra do <strong>frevo</strong>, ritmo vibrante que é patrimônio cultural da humanidade, e do <strong>Galo da Madrugada</strong>, o maior bloco de carnaval do mundo.</p>
     </section>
     <section>
-        <h1>Belezas naturais</h1>
+        <h1 class="gradiente">Belezas naturais</h1>
         <img src="./img/praia.jpg" alt="Belezas naturais" class="paisagem">
         <p>As praias de Recife são um espetáculo à parte. A <strong>Praia de Boa Viagem</strong>, com suas águas cristalinas e piscinas naturais protegidas por recifes de coral, é perfeita para um dia de descanso. Para os amantes da natureza, Recife também oferece parques e reservas, como o Jardim Botânico do Recife e o Parque dos Manguezais, ideais para trilhas e atividades ao ar livre.</p>
     </section>
