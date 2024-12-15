@@ -15,12 +15,17 @@
             color:#155462;
             font-weight: bold;
             padding-top: 10px;
+            font-size: large;
 
+        }
+        section {
+            margin-bottom: 100px; 
         }
         .banner img {
             width: 100%;
             height: 250px; /* Altura fixa do banner */
             object-fit: cover; 
+    
         }
         .gradiente {
             background: linear-gradient(95deg, #f4c536, #e5bee0);
@@ -34,11 +39,12 @@
         }
 
         /* Imagens alinhadas à direita */
-        .galo {
+        .marco-zero {
             float: right;
             margin-left: 20px;
-            max-width: 250px;
-            border-radius: 7px;
+            max-width: 300px;
+            width: 100%;
+            padding-top: 45px;
             
         }
         .paisagem {
@@ -55,7 +61,8 @@
             justify-content: center; /* Centraliza horizontalmente */
             align-items: center; /* Centraliza verticalmente */
             font-size: 18px; /* Tamanho da fonte */
-            padding: 9px; /* Espaço interno */
+            padding: 0; /* Espaço interno */
+            margin: 0;
             background-color: #f4c536; /* Cor de fundo */
             color: aliceblue; /* Cor do texto */
         }
@@ -69,8 +76,9 @@
     </header>
     <section>
         <h1 class="gradiente">Marco Zero</h1>
-        <img src="./img/galo_madrugada.jpg" alt="Galo da madrugada" class="galo">
-        <p>O <strong>Marco Zero de Recife</strong> é um dos principais pontos turísticos e símbolos históricos da cidade. Localizado na Praça Rio Branco, no coração do Recife Antigo, o Marco Zero marca o início do sistema viário da cidade, sendo o ponto de referência para o cálculo das distâncias no estado de Pernambuco. A sua importância histórica e cultural vai além da sua função geográfica, sendo considerado um ícone da cidade e um ponto de encontro para locais e turistas.</p>
+        <img src="./img/marco-zero.jpg" alt="marco zero" class="marco-zero">
+        <p>
+            O <strong>Marco Zero de Recife</strong> é um dos principais pontos turísticos e símbolos históricos da cidade. Localizado na Praça Rio Branco, no coração do Recife Antigo, o Marco Zero marca o início do sistema viário da cidade, sendo o ponto de referência para o cálculo das distâncias no estado de Pernambuco. A sua importância histórica e cultural vai além da sua função geográfica, sendo considerado um ícone da cidade e um ponto de encontro para locais e turistas.</p>
         <p>
             O monumento, inaugurado em 1850, é um obelisco de granito que celebra a fundação da cidade, e está cercado por uma área de calçamento de pedras portuguesas, formando um mapa que simboliza as ruas de Recife. Essa região é uma das mais antigas da cidade, com muitos edifícios históricos e culturais ao redor, como o Teatro Santa Isabel, o Palácio do Campo das Princesas e o Museu do Frevo.
         </p>
@@ -79,7 +87,7 @@
     
     
     <footer class="rodape">
-        <p>2024 - Lara Vitória. Todos os direitos reservados</p>
+        <p>2024 - Todos os direitos reservados</p>
     </footer>
 </body>
 </html>
