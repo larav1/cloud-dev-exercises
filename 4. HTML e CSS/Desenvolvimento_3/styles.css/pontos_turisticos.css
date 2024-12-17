@@ -1,3 +1,14 @@
+
+body {
+    height: 100%; /* Garante que a altura total seja 100% */
+    margin: 0; /* Remove as margens padrão */
+    display: flex; /* Flexbox para estruturar */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    overflow-x: hidden;
+    background-color: rgb(250, 247, 243); 
+
+}
+
 p {
     font-size:larger;
     text-align: justify;
@@ -5,12 +16,17 @@ p {
 }
 section {
     margin-bottom: 100px; 
+    padding: 16px;
 }
-.banner img {
-    width: 100%;
-    height: 250px; /* Altura fixa do banner */
-    object-fit: cover; 
 
+.banner img {
+    margin: 0;
+    width: 100%; /* Largura total */
+    height: 260px;
+    object-fit: cover; 
+    display: flex;
+    bottom: 0; 
+    left: 0; 
 }
 
 .gradiente {
@@ -40,17 +56,17 @@ section {
 }
 
 .rodape {
-    display: flex; /* Usa flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    position: fixed; /* Fixa o rodapé na posição */
-    bottom: 0; /* Posiciona no canto inferior */
-    left: 0; /* Alinha com o canto esquerdo */
-    width: 100%; /* Ocupa toda a largura */
-    height: 60px; /* Altura do rodapé */
-    font-size: 15px; /* Tamanho da fonte */
-    margin: 0; /* Remove margem */
-    padding: 0; /* Remove padding */
-    background-color: #f4c536; /* Cor de fundo */
-    color: aliceblue; /* Cor do texto */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 60px; 
+    font-size: 15px; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4c536; 
+    color: aliceblue; 
 }
