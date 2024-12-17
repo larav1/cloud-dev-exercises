@@ -19,15 +19,38 @@ section {
     padding: 16px;
 }
 
+a {
+    text-decoration: none;
+    color:#155462;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: large;
+
+}
+
 .banner img {
     margin: 0;
     width: 100%; /* Largura total */
-    height: 260px;
+    height: 240px;
     object-fit: cover; 
     display: flex;
     bottom: 0; 
     left: 0; 
+    
 }
+
+/* Imagens alinhadas à direita */
+.marco-zero {
+    float: right;
+    margin-left: 20px;
+    max-width: 300px;
+    width: 100%;
+    padding-top: 0; 
+    border-radius: 10px; /* Borda arredondada */
+    border: 3px solid #978faf; /* Borda em todas as extremidades */
+    box-sizing: border-box; /* Garante que a borda seja incluída no cálculo do tamanho */
+}
+
 
 .gradiente {
     background: linear-gradient(95deg, #f4c536, #e5bee0);
@@ -37,22 +60,6 @@ section {
     text-align: center; 
     margin: 50px 0; 
     border-radius: 4px;
-}
-.instituto {
-    float: right;
-    margin-left: 20px;
-    max-width: 300px;
-    width: 100%;
-    padding-top: 45px;
-    
-}
-.teatro {
-    float: right;
-    margin-left: 20px;
-    max-width: 300px;
-    width: 100%;
-    padding-top: 45px;
-    
 }
 
 .rodape {

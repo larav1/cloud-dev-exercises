@@ -22,7 +22,7 @@ section {
 .banner img {
     margin: 0;
     width: 100%; /* Largura total */
-    height: 260px;
+    height: 240px;
     object-fit: cover; 
     display: flex;
     bottom: 0; 
@@ -43,7 +43,10 @@ section {
     margin-left: 20px;
     max-width: 300px;
     width: 100%;
-    padding-top: 45px;
+    padding-top: 0; 
+    border-radius: 10px; /* Borda arredondada */
+    border: 3px solid #92af8f; /* Borda em todas as extremidades */
+    box-sizing: border-box; 
     
 }
 .teatro {
@@ -51,7 +54,10 @@ section {
     margin-left: 20px;
     max-width: 300px;
     width: 100%;
-    padding-top: 45px;
+    padding-top: 0; 
+    border-radius: 10px; /* Borda arredondada */
+    border: 3px solid #af918f; /* Borda em todas as extremidades */
+    box-sizing: border-box; 
     
 }
 
