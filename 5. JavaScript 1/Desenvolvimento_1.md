@@ -5,3 +5,7 @@ Tira um print de alguma seção de uma página web na qual você tenha identific
 Sem a necessidade de inspecionar o elemento web, descreva da forma mais detalhada possível o comportamento que leva você a acreditar que seria necessário o uso de JS.
 
 ## Resolução
+<img src="../img/exemplo_js.png" alt="Print do site bioicons">
+
+A imagem do site bioicons destaca o filtro de pesquisa utilizado, que provavelmente faz uso do JavaScript, proporcionando uma funcionalidade de pesquisa interativa, permitindo que os usuários filtrem os ícones com base nos seguintes parâmetros: all icons, cell culture, molecular modelling, entre outros.
+
