@@ -11,3 +11,11 @@ Acesse o site OneCompiler (https://onecompiler.com/javascript/), copie e cole o 
 numerosDaSorte = [37, 14, 26, 5, 94, 87]
 
 ## 1️⃣2️⃣ Resolução
+
+O primeiro código verifica se o número é par e menor que 50 e o segundo verifica os números que são < 50 e, por fim, tem a condição que identifica os números que são maiores que 50.
+
+<img src="../img/desenvolvimentoExtra2_3.png">
+
+**Output**
+
+<img src="../img/output2_3.png">
