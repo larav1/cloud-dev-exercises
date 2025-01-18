@@ -7,3 +7,5 @@ Crie um projeto com dois arquivos: index.html e script.js. No arquivo 'index' in
 No arquivo script.js capture os quatro elementos criados, e use a propriedade .innerText para adicionar conteúdo textual aos elementos 'h1' e 'a', e a propriedade .innerHTML para adicionar três itens simples na lista não ordenada, e três itens com links para outros sites na lista ordenada.
 
 ## Resolução
+
+Está presente no html e javascript.
