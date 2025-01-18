@@ -1,3 +1,8 @@
+let titulo = document.createElement("h1");
+titulo.id = "titulo";
+titulo.innerText = "Venda de cosméticos";
+document.body.prepend(titulo); // Adiciona o título ao início do body
+
 let elementoProduto = document.createElement("h2");
 elementoProduto.innerText = "Widi Care Juba Mousse";
 
@@ -14,7 +19,7 @@ produtoNovo.innerHTML = `
           width="180"
           alt="Mousse capilar"
         />
-        <h4 class="precoProduto">Preço: R$ 50,90</h3>
+        <h4 class="precoProduto">Preço: R$ 50,90</h4>
 `;
 
 const produtos = document.querySelector(".produtos-venda");
