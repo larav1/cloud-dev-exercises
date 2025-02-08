@@ -4,7 +4,7 @@
 
 O Sistema de Gerenciamento de Bancos de Dados é um conjunto de programas que serve para gerenciar um ou mais bancos de dados. Sendo assim, pesquise sobre os bancos de dados mais utilizados no mercado de trabalho e descreva dois deles.
 
-## Resolução
+## 🎲 Resolução
 
 Os bancos de dados mais utilizados no mercado são: MySQL e PostgreSQL, de acordo com a lista dos bancos de dados mais populares de 2025.
 
