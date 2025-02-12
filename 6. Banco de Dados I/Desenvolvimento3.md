@@ -6,6 +6,6 @@ A normalização de dados é um processo realizado nas tabelas para evitar anoma
 
 <img src="../img/Imagem01_Atividade03_BancodeDadosI.png" alt="" />
 
-## Resolução
+## 🎲 Resolução
 
 <img src="../img/1FN.png" alt="" />
