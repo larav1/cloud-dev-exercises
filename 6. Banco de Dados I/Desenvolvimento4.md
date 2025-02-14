@@ -42,26 +42,67 @@ Exiba apenas os nomes e as notas dos alunos
 ```
 π P.NOME,NOTA (ALUNO)
 ```
+|P.NOME|NOTA|
+|---|---|
+|Vitória| 7.0 |
+|Luiz| 8.0 |
+| André| 9.5 |
+| Alan | 8.0 |
+| Figueiredo | 9.0 |
+
 Crie uma tabela PROFESSOR que apresente apenas o primeiro e o último nome do professor
 ```
 π P.NOME,U.NOME (PROFESSOR)
 ```
+|P.NOME|U.NOME|
+|---|---|
+|Vitória|	Claudino|
+|Luiz|	Silva|
+|André|	Carvalho|
+|Alan|	Vilela|
+|Figueiredo| Santos|
+
 Crie uma tabela ALUNO com o primeiro e o último nome de cada
 ```
 π P.NOME,U.NOME (ALUNO)
 ```
+|P.NOME|U.NOME|
+|---|---|
+|Vitória|	Claudino|
+|Luiz|	Silva|
+|André|	Carvalho|
+|Alan|	Vilela|
+|Figueiredo| Santos|
+
 Mostre o resultado da união entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR
 ```
 ALUNO ∪ PROFESSOR
 ```
+|P.NOME|U.NOME|
+|---|---|
+|Vitória|	Claudino|
+|Luiz|	Silva|
+|André|	Carvalho|
+|Alan|	Vilela|
+|Figueiredo| Santos|
+
 Exiba o resultado da intersecção entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR
 ```
 ALUNO ∩ PROFESSOR
 ```
+|P.NOME|U.NOME|
+|---|---|
+|Vitória|	Claudino|
+|Luiz|	Silva|
+|André|	Carvalho|
+|Alan|	Vilela|
+|Figueiredo| Santos|
+
 Exiba o resultado da diferença entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR
 ```
 ALUNO - PROFESSOR
 ```
+Tabela vazia, pois não existem valores diferentes tendo em vista que é a mesma tabela.
 
 
 
