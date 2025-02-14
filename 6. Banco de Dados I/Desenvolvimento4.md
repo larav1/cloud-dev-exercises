@@ -20,11 +20,24 @@ Mostre as informações apenas dos alunos aprovados. A aprovação é acima de 7
 ```
 σ NOTA > 7 (ALUNO)
 ```
+|P.NOME|U.NOME|MATRÍCULA|SÉRIE|DISCIPLINA|NOTA
+|---|---|---|---|---|---|
+|Luiz| Silva| 6215| 1º ano| Português| 8.0 |
+| André| Carvalho | 4521 | 3º ano | Matemática | 9.5 |
+| Alan | Vilela | 3285 | 1º ano	| História | 8.0 |
+| Figueiredo | Santos | 4598 | 2º ano | Geografia | 9.0 |
 
 Exiba as informações dos alunos do primeiro ano com nota maior ou igual a 8,0
 ```
  σ NOTA ≥ 8 (ALUNO)
 ```
+|P.NOME|U.NOME|MATRÍCULA|SÉRIE|DISCIPLINA|NOTA
+|---|---|---|---|---|---|
+|Luiz| Silva| 6215| 1º ano| Português| 8.0 |
+| André| Carvalho | 4521 | 3º ano | Matemática | 9.5 |
+| Alan | Vilela | 3285 | 1º ano	| História | 8.0 |
+| Figueiredo | Santos | 4598 | 2º ano | Geografia | 9.0 |
+
 Exiba apenas os nomes e as notas dos alunos
 ```
 π P.NOME,NOTA (ALUNO)
