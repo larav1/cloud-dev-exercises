@@ -15,17 +15,18 @@ Depois, pesquise qual é o comando utilizado para inserir uma tabela no banco de
 CREATE TABLE ALUNO (
   id SERIAL PRIMARY KEY,
   nome VARCHAR(100) NOT NULL,
+  matricula VARCHAR(10) UNIQUE NOT NULL,
   email VARCHAR(255) UNIQUE NOT NULL,
-  endereco VARCHAR(200) NOT NULL
+  endereco VARCHAR(200) NOT NULL,
+  telefone VARCHAR(20) NOT NULL
 );
 
 -- Inserindo dados na tabela ALUNO
-INSERT INTO ALUNO (nome, email, endereco) VALUES 
-    ('Laura', 'laura@gmail.com', 'Rua A'),
-    ('Dave', 'dave@hotmail.com', 'Rua B'),
-    ('Nicolas', 'nico@gmail.com', 'Rua C'),
-    ('Paula', 'paula@gmail.com', 'Rua 4A'),
-    ('Tatiane', 'tati@hotmail.com', 'Rua D');
-
+INSERT INTO ALUNO (nome, matricula, email, endereco, telefone) VALUES 
+    ('João Carlos', '1234', 'Jcarlos@gmail.com', 'Rua 13 de maio', '(11)7825-4489'),
+    ('José Vitor', '2345', 'Jvitor@gmail.com', 'Rua da Saudade', '(11)7825-6589'),
+    ('Paulo André', '3456', 'Padr@gmail.com', 'Rua do Sol', '(11)7825-4495');
+    
+    
 -- Consultando os dados inseridos
 SELECT * FROM ALUNO;
