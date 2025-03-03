@@ -11,6 +11,9 @@ Depois, pesquise qual é o comando utilizado para inserir uma tabela no banco de
 6. adicione um atributo endereço do tipo varchar.  
 */
 
+CREATE DATABASE ESCOLA;
+USE ESCOLA;
+
 -- Criação da tabela ALUNO
 CREATE TABLE ALUNO (
   id SERIAL PRIMARY KEY,
