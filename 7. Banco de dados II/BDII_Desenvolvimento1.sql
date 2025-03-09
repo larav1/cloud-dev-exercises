@@ -10,8 +10,8 @@ e) utilize os comandos Joins para realizar consultas nas tabelas.
 */
 
 -- Criando o banco de dados de filmes de terror
---CREATE DATABASE FilmesSeriesTerror;
---USE FilmesTerror;
+CREATE DATABASE FilmesSeriesTerror;
+USE FilmesSeriesTerror;
 
 -- Criando as tabelas
 CREATE TABLE Filmes (
